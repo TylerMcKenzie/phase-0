@@ -29,21 +29,21 @@ What was your impression of this challenge overall? (love, hate, and why?)
 
 My Screenshots;
 Change the Colors
-![Release3: Change the Colors](../../week-2/imgs/Realease-3.1)
+![Release3: Change the Colors](../../week-2/imgs/Release-3.1)
 Column
-![Release3: Column](../../week-2/imgs/Realease-3.2)
+![Release3: Column](../../week-2/imgs/Release-3.2)
 Row
-![Release3: Row](../../week-2/imgs/Realease-3.3)
+![Release3: Row](../../week-2/imgs/Release-3.3)
 Make Equidistant
-![Release3: Make Equidistant](../../week-2/imgs/Realease-3.4)
+![Release3: Make Equidistant](../../week-2/imgs/Release-3.4)
 Squares
-![Release3: Squares](../../week-2/imgs/Realease-3.5)
+![Release3: Squares](../../week-2/imgs/Release-3.5)
 Footer
-![Release3: Footer](../../week-2/imgs/Realease-3.6)
+![Release3: Footer](../../week-2/imgs/Release-3.6)
 Header
-![Release3: Header](../../week-2/imgs/Realease-3.7)
+![Release3: Header](../../week-2/imgs/Release-3.7)
 Sidebar
-![Release3: Sidebar](../../week-2/imgs/Realease-3.8)
+![Release3: Sidebar](../../week-2/imgs/Release-3.8)
 Get Creative
-![Release3: Get Creative](../../week-2/imgs/Realease-3.9)
+![Release3: Get Creative](../../week-2/imgs/Release-3.9)
 
