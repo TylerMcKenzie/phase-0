@@ -24,18 +24,28 @@ What is the difference between float and integer division? How would you explain
 
 	Pretty simple right?
 
-<!--
-Hours in a year
 
-```ruby
-x = 365
-x = x * 24
-p x
 
-```
-minutes in a decade
+How does Ruby handle addition, subtraction, multiplication, and division of numbers?
 
-```ruby
+- Ruby will do the following operations in this order: Multiply, divide, modulo, addition, and finally subtraction.
 
-```
- -->
+What is the difference between integers and floats?
+
+-Integers are whole numbers while floats are numbers that can be a fraction or decimal.
+
+What is the difference between integer and float division?
+
+-Integer division always returns a whole number while float division will return decimals.
+
+What are strings? Why and when would you use them?
+
+-Strings are groupings of words, much like a sentence. I would use them to specify what the code is doing especially because it is not always displayed to the console.
+
+What are local variables? Why and when would you use them?
+
+-Local variables are variables that are placed directly within the Ruby document that you are working in.
+
+How was this challenge? Did you get a good review of some of the basics?
+
+-I think that this was a good review of basic elements of Ruby.
