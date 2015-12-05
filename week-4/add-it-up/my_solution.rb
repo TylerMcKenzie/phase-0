@@ -65,14 +65,13 @@ Method sentence_maker
 
 # 5. sentence_maker initial solution
 
-def sentence_maker (array) 
+def sentence_maker(array) 
 	array[0] = array[0].capitalize
 	b = ""
-	array.each { |a| b += a }
-	b + "."
+	array.each { |a| b += a.to_s }
+	b = array.join(" ") + "."
 end
 
-p sentence_maker(["all", "my", "socks", "are", "dirty"])
 
 
 # 6. sentence_maker refactored solution
