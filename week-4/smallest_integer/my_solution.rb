@@ -13,13 +13,13 @@
 # Your Solution Below
 def smallest_integer(list_of_nums)
   # Your code goes here!
-  a = list_of_nums.length
+  a = list_of_nums
   
   	loop do 
   		swapped = false
   		
   		(a-1).times do |i|
-  			if list_of_nums[i].length > list_of_nums[i+1].length
+  			if list_of_nums[i] > list_of_nums[i+1]
   				list_of_nums[i], list_of_nums[i+1] = list_of_nums[i+1], list_of_nums[i]
   				swapped = true 
   			end
@@ -32,4 +32,3 @@ def smallest_integer(list_of_nums)
 
 
 end
-p smallest_integer([8,4,52,7,9,2,6])
