@@ -32,4 +32,3 @@ def smallest_integer(list_of_nums)
 
 
 end
-p smallest_integer([8,4,52,7,9,2,6])
