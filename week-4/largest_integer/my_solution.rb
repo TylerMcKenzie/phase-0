@@ -19,7 +19,7 @@ def largest_integer(list_of_nums)
       swapped = false
       
       (a-1).times do |i|
-        if list_of_nums[i].length < list_of_nums[i+1].length
+        if list_of_nums[i] < list_of_nums[i+1]
           list_of_nums[i], list_of_nums[i+1] = list_of_nums[i+1], list_of_nums[i]
           swapped = true 
         end
