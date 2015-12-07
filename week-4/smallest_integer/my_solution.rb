@@ -13,7 +13,7 @@
 # Your Solution Below
 def smallest_integer(list_of_nums)
   # Your code goes here!
-  a = list_of_nums
+  a = list_of_nums.length
   
   	loop do 
   		swapped = false
