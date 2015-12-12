@@ -74,8 +74,14 @@ end
 
 # 4. Reflection
 =begin
+
 Which data structure did you and your pair decide to implement and why?
+-For our data structure we chose to use a hash, because it would be easier to store and evaluate the keys and their values
 Were you more successful breaking this problem down into implementable pseudocode than the last with a pair? 
+-The two were problems were fairly easy to pseudocode, so I'd say they were the same.
 What issues/successes did you run into when translating your pseudocode to code?
+-The main issues that we ran into was that 1. for awhile we couldn'y implement strings into the method and 2. when we ran the rspec we had no idea why it was not giving the correct answer so we just sorted the result
 What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+-We found that .each worked best in this scenario, we did think about using .find_all or .select, but just didn't feel as if the results that they gave were as simple as .each
+
 =end

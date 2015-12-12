@@ -73,3 +73,18 @@ end
 
 
 # 4. Reflection
+=begin
+
+Were you successful in breaking the problem down into small steps?
+-Yes I would say that my pair was very good at starting with small steps. 
+Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+-Once our pseudocode was finished we had almost no problem to impliment. Didn't have many issues with our code, mainly we took a bit to set up the clone array(just looking up how to do it)
+Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+-I think that my solution was successful at first because we approached each 
+When you refactored, did you find any existing methods in Ruby to clean up your code?
+-Given our paramaters we looked any couldn't think of a refactored version of our code.
+How readable is your solution? Did you and your pair choose descriptive variable names?
+-Our solution is pretty readable, we could have mabe used more descriptive variables but that may be all
+What is the difference between destructive and non-destructive methods in your own words?
+-The difference between the two is that destructive overwrites the array or hash and a non-destructive does not overwrite the original array or hash
+=end
