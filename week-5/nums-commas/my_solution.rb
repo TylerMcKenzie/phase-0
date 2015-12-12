@@ -38,7 +38,19 @@ end
 
 
 # 2. Refactored Solution
-
+arr = int.to_s.split('')
+	arr.reverse!
+	lng = arr.length
+	c = 3
+	arr.each do |n|
+		if n == arr[c]
+			arr = arr.insert(c, ',')
+			c += 4	
+			end
+		end
+	arr.reverse!
+	arr = arr.join('')
+	p arr 
 
 
 
