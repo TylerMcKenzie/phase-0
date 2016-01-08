@@ -20,7 +20,7 @@
 10. Select the region_name and the state_name for all states and regions in ascending order by region_id. Refer to the region by name. (This will involve joining the tables).
 	- SELECT region_name, state_name FROM states JOIN regions ON states.region_id=regions.id ORDER BY region_id ASC;
 
-![Tables](/week-8/databse-intro/schema_img.png)
+![Tables](/week-8/database-intro/schema_img.png)
 
 What are databases for?
 -Databases are for storing large amounts of information for a webpage or program
