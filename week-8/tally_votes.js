@@ -1,6 +1,6 @@
  // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with: Raj
+// I worked on this challenge with: Katie Meyer 
 // This challenge took me [#] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
@@ -41,11 +41,12 @@ var voteCount = {
   treasurer: {}
 }
 
-/* The name of each student receiving a vote for an office should become a property
+/*
+The name of each student receiving a vote for an office should become a property
 of the respective office in voteCount.  After Alex's votes have been tallied,
 voteCount would be ...
   var voteCount = {
-    president: { Bob: 1 },
+    president: { Bob: 1 }, 
     vicePresident: { Devin: 1 },
     secretary: { Gail: 1 },
     treasurer: { Kerry: 1 }
@@ -63,20 +64,72 @@ var officers = {
 }
 
 // Pseudocode
-
+// 1. tally up all votes for Bob as President; get vote count
+// 2. tally up all votes for Bob as Vice President
+// 3. tally up all votes for Bob as Secretary
+// 4. tally up all votes for Bob as Treasurer
+// 5. elect Louise as President
+// 6. elect Herman as Vice President
+// 7. elect Fred as Secretary
+// 8. elect Ivy as Treasurer
 
 // __________________________________________
 // Initial Solution
 
+// function tallyVotes(obj) {
+//   for(var name in votes) {
+//     for(var prop in votes[name]) {
+//       var vote_cast = votes[name][prop];
+//       if (vote_cast in voteCount[prop]) {
+//         voteCount[prop][vote_cast] += 1;
+//       }
+//       else {
+//         voteCount[prop][vote_cast] = 1;
+//       }
+//     };
+//   };
+// };
+// tallyVotes(votes);
 
-
-
-
+// var max = 0, position, votes;
+// for(position in voteCount) {
+//   for(votes in voteCount[position]) {
+//     if(voteCount[position][votes] >= max) {
+//       max = voteCount[position][votes];
+//       officers[position] = votes;
+//     };
+//   };
+// };
+// console.log(officers);
 
 
 // __________________________________________
 // Refactored Solution
+function tallyVotes(obj) {
+  for(var name in votes) {
+    for(var prop in votes[name]) {
+      var vote_cast = votes[name][prop];
+      if (vote_cast in voteCount[prop]) {
+        voteCount[prop][vote_cast] += 1;
+      }
+      else {
+        voteCount[prop][vote_cast] = 1;
+      }
+    };
+  };
+};
+tallyVotes(votes);
 
+var max = 0, position, votes;
+for(position in voteCount) {
+  for(votes in voteCount[position]) {
+    if(voteCount[position][votes] >= max) {
+      max = voteCount[position][votes];
+      officers[position] = votes;
+    };
+  };
+};
+console.log(officers);
 
 
 
@@ -87,13 +140,13 @@ var officers = {
 /*
 
 What did you learn about iterating over nested objects in JavaScript?
--
+- I learned that iterating over the sested structures can be easy when you figure it out.
 
 Were you able to find useful methods to help you with this?
--
+-I found a few that could be useful in the future but none for this assignment. And the future one was using Math.max.apply(null, array) to find max/min values of an array.
 
 What concepts were solidified in the process of working through this challenge?
--
+-The idea of moving into structers and iterating over them was really solidified for me in this assignment.
 
 */
 
